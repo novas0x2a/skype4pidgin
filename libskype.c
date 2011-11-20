@@ -1822,8 +1822,6 @@ skype_close(PurpleConnection *gc)
 	messages_table = NULL;
 	g_hash_table_destroy(groups_table);
 	groups_table = NULL;
-	g_hash_table_destroy(chat_link_table);
-	chat_link_table = NULL;
 	g_hash_table_destroy(sms_convo_link_table);
 	sms_convo_link_table = NULL;
 	
